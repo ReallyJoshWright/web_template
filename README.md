@@ -4,21 +4,22 @@ This is a web template for starting a project. It uses CrowCpp, Asio, and Htmx.
 The web server is in C++. This is meant to run on Linux.
 
 ## Project Structure
-main.cpp
-templates/
-static/
-    assets/
-        images/
-    css/
-    js/
-    ts/
-    libs/
-include/
-    models/
-    external/
-    development/
-src/
-    services/
-    routes/
-    development/
-tests/
+- main.cpp
+- templates/
+- static/
+    - assets/
+    - images/
+    - css/
+    - js/
+    - ts/
+    - libs/
+- include/
+    - models/
+    - external/
+    - development/
+    - routes/
+- src/
+    - services/
+    - routes/
+    - development/
+- tests/

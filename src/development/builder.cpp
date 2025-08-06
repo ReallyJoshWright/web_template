@@ -60,10 +60,11 @@ namespace utils {
                         fs::path output_file_path = js_dir / input_file_path
                             .stem().string().append(".js");
     
-                        string compile = "tsc "
+                        string compile = "tsc --target ES6 "
                             + input_file_path.string()
                             + " --outFile "
-                            + output_file_path.string();
+                            + output_file_path.string()
+                            + " --module system";
     
                         CROW_LOG_INFO << "Transpiling: "
                                       << input_file_path.filename().string();

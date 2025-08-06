@@ -13,6 +13,7 @@ The web server is in C++. This is meant to run on Linux.
     - js/
     - ts/
     - libs/
+    - components/
 - include/
     - models/
     - external/
